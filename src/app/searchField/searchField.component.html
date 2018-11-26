@@ -1,0 +1,6 @@
+<form>
+  <input type="text" id="searchField"  list="resultsList" />
+  <datalist id="resultsList">
+    <option *ngFor="let country of countries">{{country.name}}</option>
+  </datalist>
+</form>
